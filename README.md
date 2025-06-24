@@ -1,6 +1,6 @@
 # 🧮 Ikshvaku Scientific Calculator
 
-A lightweight and powerful scientific calculator built in C++ by **Ashish Jha (Ikshvaku)**.
+A lightweight and powerful scientific calculator built in C++.
 
 > 🪙 Version: 1.0.0  
 > 🛠 Platform: Linux (Ubuntu-based systems)
