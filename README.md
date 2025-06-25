@@ -19,9 +19,21 @@ This is a terminal-based calculator that:
 
 ## 🚀 Installation
 
+* **Option 1: Download & Install `.deb` Manually**
+  1. Download the latest `.deb` file from the [Releases](https://github.com/ashish-jha-73/ikshvaku_calc/releases) section.
+  2. Install it using `dpkg`:
+     ```bash
+     sudo dpkg -i ikshvaku-calc_1.0_amd64.deb
+     sudo apt -f install  # Fix dependencies, if needed
+     ```
 
-1. [Download the latest `.deb` file](https://github.com/ashish-jha-73/ikshvaku_calc/ikshvaku-calc_1.0_amd64.deb) from the **Releases** section.
-2. Install it using `dpkg`:
-
-```bash
-sudo dpkg -i ikshvaku-calc_1.0_amd64.deb
+* **Option 2: Install via Launchpad PPA (Recommended)**
+  1. Add the PPA:
+     ```bash
+     sudo add-apt-repository ppa:ashish-jha-73/calculator
+     sudo apt update
+     ```
+  2. Install the calculator:
+     ```bash
+     sudo apt install ikshvaku-calc
+     ```
